@@ -1,0 +1,2 @@
+SET JAVALIBS=C:\Javalibs
+java -cp ".;.\supportlibraries\Framework_Core.jar;.\supportlibraries\Framework_DataTable.jar;.\supportlibraries\Framework_Reporting.jar;.\supportlibraries\Framework_Utilities.jar;.\supportlibraries\Framework_Selenium.jar;%JAVALIBS%\poi-3.10-FINAL\poi-3.10-FINAL-20140208.jar;%JAVALIBS%\Selenium\selenium-server-standalone-2.43.1.jar" org.testng.TestNG testng_regression.xml
